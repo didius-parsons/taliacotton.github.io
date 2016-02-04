@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	function redo() {
     console.log( "ready!" );
 	$(".content").hide();
 
@@ -60,16 +61,18 @@ $(document).ready(function() {
     	$('.dropdown').html($('.dropdown').html().replace('Assignment 2','Cats'));
     	$('.dropdown').html($('.dropdown').html().replace('Assignment 3','Cats'));
     	$('.dropdown').html($('.dropdown').html().replace('Assignment 4','Cats'));
+    	
+    	redo();
 
 	});
 
 	$(".unicorns").click(function(){
 		$(".content").show();
-		$(".taliaContent").hide();
+		$("#taliaContent").hide();
 		$("#taliaPicture").hide();
-		$(".404NotFound").show();
-    	$(".classContent").hide();
-    	$(".assignment1Content").hide();
+		$("#404NotFound").show();
+    	$("#classContent").hide();
+    	$("#assignment1Content").hide();
 	});
 	$(".bacon").click(function(){
 		$(".content").show();
@@ -86,5 +89,8 @@ $(document).ready(function() {
     	$("#classContent").hide();
     	$("#assignment1Content").show();
 	});
+	}
+	
+	redo();
 	
 });
