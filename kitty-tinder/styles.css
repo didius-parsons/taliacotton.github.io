@@ -1,0 +1,147 @@
+body {
+	font-size: 16px;
+}
+
+html, body, div, header {
+	margin: 0; 
+	padding: 0;
+	border: 0;
+}
+
+img {
+	width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.slideshow {
+	width: 94%;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #F5F5F5;
+	margin: 0 auto;
+	margin-top: 3%;
+	height: 400px;
+}
+
+.cat-name {
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 700;
+	font-size: 1.25em;
+	text-align: center;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size: 1.875em;
+	color: #FFF4E4;
+	text-align: center;
+}
+
+header[role="banner"] {
+	position: relative;
+	background: #A30072;
+	max-width: 65em;
+	display: block;	
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.cat-images {
+	width: 100%;
+}
+
+.buttons {
+	width: 17.5em;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+
+.dislike {
+	float: left;
+	width: 6.563em;
+	background: #F5F5F5;
+  	border-radius: 4.688em;
+  	max-width: 6.563em;
+  	max-height: 6.563em;
+  	height: 6.563em;
+  	border: solid #F5F5F5 4px;
+}
+
+.dislike:active {
+	background: #E2E2E2;
+}
+
+.like {
+	float: right;
+	width: 6.563em;
+	background: #F5F5F5;
+  	border-radius: 4.688em;
+  	max-width: 6.563em;
+  	max-height: 6.563em;
+  	height: 6.563em;
+  	border: solid #F5F5F5 4px;
+}
+
+.like:active {
+	background: #E2E2E2;
+}
+
+/* 
+.btn {
+	background: #F5F5F5;
+  	border-radius: 4.688em;
+  	max-width: 6.563em;
+  	max-height: 6.563em;
+  	height: 6.563em;
+  	border: solid #F5F5F5 4px;
+}
+ */
+
+.btn:active {
+	background: #E2E2E2;
+}
+
+#x {
+	max-width: 2.350em;
+	height: auto;
+	margin: 0 auto;
+	padding: 2.2em;
+    position: relative;
+}
+
+#heart {
+	max-width: 2.938em;
+	height: auto;
+	margin: 0 auto;
+	padding: 2em;
+    position: relative;
+}
+
+.end {
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+
+#fish {
+	max-width: 168px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+}
+
+h3 {
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 700;
+	font-size: 1.25em;
+	text-align: center;
+	margin-top: 35px;
+}
+

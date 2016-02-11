@@ -67,7 +67,7 @@ table {
   width: 300px;
   font-family: "Cabin", sans-serif;
   padding-top: 20px;
-  font-size: 13px; }
+  font-size: 15px; }
 
 .dropdown li {
     padding: 0 10px; }
@@ -100,7 +100,7 @@ table {
 
 .dropdown li > ul li > ul li a {
         color: black;
-        font-size: 13px;
+        font-size: 15px;
         text-transform: none;
         padding: 0; }
 

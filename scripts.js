@@ -1,5 +1,4 @@
 $(document).ready(function() {
-	function redo() {
     console.log( "ready!" );
 	$(".content").hide();
 
@@ -32,46 +31,16 @@ $(document).ready(function() {
 		$("#404NotFound").hide();
     	$("#classContent").show();
     	$("#assignment1Content").hide();
-    	
-    	console.log("the class clicked");
-	});
-	
-	$(".assignment1").click(function(){
-		$(".content").show();
-		$("#taliaContent").hide();
-		$("#taliaPicture").hide();
-		$("#404NotFound").hide();
-    	$("#classContent").hide();
-    	$("#assignment1Content").show();
-	});
-	$(".assignment2").click(function(){
-		$(".content").show();
-		$("#taliaContent").hide();
-		$("#taliaPicture").hide();
-		$("#404NotFound").show();
-    	$("#classContent").hide();
-    	$("#assignment1Content").hide();
-	});
-	$(".assignment3").click(function(){
-		$(".content").show();
-		$("#taliaContent").hide();
-		$("#taliaPicture").hide();
-		$("#404NotFound").show();
-    	$("#classContent").hide();
-    	$("#assignment1Content").hide();
-	});
-	$(".assignment4").click(function(){
-		$(".content").show();
-		$("#taliaContent").hide();
-		$("#taliaPicture").hide();
-		$("#404NotFound").show();
-    	$("#classContent").hide();
-    	$("#assignment1Content").hide();
 	});
 	
 	$(".cats").click(function(){
 		console.log("cats clicked");
 		$(".content").show();
+// 		$("#taliaContent").hide();
+// 		$("#taliaPicture").hide();
+// 		$("#404NotFound").show();
+//     	$("#classContent").hide();
+//     	$("#assignment1Content").hide();
     	
 		$("#taliaContent").html('<h2>Cats Cats</h2><p>cats cats Cats-cats cats cats. Cats cats cats cats cats cats cats, cats cats cats cats cats cats cats cats (cats cats cats). Cats cats cats cats cats cats cats cats cats cats cats cats cats. cats cats cats cats cats cats cats cats cats cats–cats cats cats Cats = cats2 (cats cats cats cats "cats cats cats cats cats"). Cats cats cats cats cats cats cats Cats cats cats "cats cats cats cats", cats cats cats cats cats cats cats cats cats cats cats, cats cats cats cats cats cats cats cats cats.</p><p>Cats cats cats cats cats cats, Cats cats cats Cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats. Cats cats cats cats cats cats cats cats cats cats cats. Cats cats, cats, cats cats cats cats cats cats cats cats cats cats cats cats, cats cats cats cats cats cats cats cats 1916, cats cats cats cats cats cats cats. Cats cats cats cats cats cats cats cats cats cats cats cats, cats cats cats cats cats cats cats cats cats cats cats cats cats. Cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats. Cats 1917, Cats cats cats cats cats cats cats cats cats cats cats-cats cats cats cats cats.</p><p class="quote">“Cats cats cats cats cats-cats cats cats cats.”</p>');
     	$("#assignment1Content").html('<h2>Cats Cats</h2><p>(cats cats cats.)</p>');
@@ -89,23 +58,31 @@ $(document).ready(function() {
     	$('.dropdown').html($('.dropdown').html().replace('Assignment 2','Cats'));
     	$('.dropdown').html($('.dropdown').html().replace('Assignment 3','Cats'));
     	$('.dropdown').html($('.dropdown').html().replace('Assignment 4','Cats'));
-    	
-    	redo();
 
 	});
 
 	$(".unicorns").click(function(){
 		$(".content").show();
+		$(".taliaContent").hide();
+		$("#taliaPicture").hide();
+		$(".404NotFound").show();
+    	$(".classContent").hide();
+    	$(".assignment1Content").hide();
+	});
+	$(".bacon").click(function(){
+		$(".content").show();
+		$(".taliaContent").hide();
+		$(".404NotFound").show();
+    	$(".classContent").hide();
+    	$(".assignment1Content").hide();
+	});
+	$(".assignment1").click(function(){
+		$(".content").show();
 		$("#taliaContent").hide();
 		$("#taliaPicture").hide();
-		$("#404NotFound").show();
+		$("#404NotFound").hide();
     	$("#classContent").hide();
-    	$("#assignment1Content").hide();
+    	$("#assignment1Content").show();
 	});
-
-
-	}
-	
-	redo();
 	
 });

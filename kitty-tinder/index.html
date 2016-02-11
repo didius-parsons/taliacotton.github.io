@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Purrsonals App</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<link rel="stylesheet" type="text/css" href="styles.css" media="screen, handheld" />
+	<link rel="stylesheet" type="text/css" href="desktop.css" media="screen  and (min-width: 40.5em)" />
+		<!--[if (lt IE 9)&(!IEMobile)]>
+		<link rel="stylesheet" type="text/css" href="enhanced.css" />
+		<![endif]-->
+	<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
+  	<script src="jquery.js"></script>
+  	<script src="scripts.js"></script>
+</head>
+<body id="page">
+	<header role="banner">
+		<h1> Purrsonals </h1>
+    </header>
+    <div class="slideshow">
+		<div class="cat-images">
+			 <div id="randomCatImage"></div>
+		</div>
+		<div class="end">
+			<img src="icons/fish.png" id="fish" >
+			<h3> There is no one<br>new around you. </h3>
+		</div>
+		<div class="cat-name" id="cat-name"></div>
+	</div>
+    <div class="buttons" id="buttons">
+		<div class="dislike" class="btn">  
+			<img src="icons/x-transparent.png" id="x">
+		</div>
+		<div class="like" class="btn"> 
+			<img src="icons/heart-transparent.png" id="heart">
+		</div>
+    </div>
+</body>
+</html>
+
+<!--http://www.html5rocks.com/en/mobile/responsivedesign/-->
+<!--http://bradfrost.com/demo/mobile-first/-->
